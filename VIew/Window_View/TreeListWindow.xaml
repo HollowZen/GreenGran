@@ -3,7 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        Title="TreeList" SizeToContent="WidthAndHeight" ResizeMode="NoResize"  Background="#CFFFD0">
+        xmlns:vm ="clr-namespace:GreenGrad.ViewModel"
+        Title="{Binding Title, UpdateSourceTrigger=PropertyChanged}" SizeToContent="WidthAndHeight" ResizeMode="NoResize"  Background="#CFFFD0">
+    <Window.DataContext>
+        <vm:MainViewModel/>
+    </Window.DataContext>
     <DockPanel>
         <TabControl>
              <TabItem Header="Деревья">

@@ -3,10 +3,15 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:vm ="clr-namespace:GreenGrad.ViewModel"
         xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
         mc:Ignorable="d"
-        Title="MapWindow" Height="450" Width="800" ResizeMode="NoResize"
-        Background="#CFFFD0">
+        Title="{Binding Title, UpdateSourceTrigger=PropertyChanged}" Height="450" Width="800" ResizeMode="NoResize"
+        Background="#CFFFD0"
+        WindowStartupLocation="CenterScreen">
+    <Window.DataContext>
+        <vm:MainViewModel/>
+    </Window.DataContext>
     <Grid>
         <TabControl>
             <TabItem Header="Google Map">
@@ -73,7 +78,40 @@
                     </Grid>
                 </TabItem.Content>
             </TabItem>
-            <TabItem Header="Мой кабинет"/>
+            <TabItem Header="Мой кабинет">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="300"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <DockPanel Grid.Row="0" Grid.RowSpan="2" Grid.Column="0" Margin="0,0,10,0">
+                        <TextBlock DockPanel.Dock="Top" HorizontalAlignment="Center" TextAlignment="Center" Text="Личные данные" FontSize="20"/>
+                        <GroupBox  FontSize="15" DockPanel.Dock="Top" BorderThickness="3,0,3,3" Header="Петров Петр Петрович">
+                            <Image Source="../../Resource/pngwing.com (6).png" Height="200" Width="200"/>
+                        </GroupBox>
+                    </DockPanel>
+                    <DockPanel Grid.Row="0" Grid.RowSpan="2" Grid.Column="1">
+                        <TextBlock Text="Данные о высаженых расстениях" DockPanel.Dock="Top" TextAlignment="Center" FontSize="20"/>
+                        <GroupBox FontSize="15" DockPanel.Dock="Top" BorderThickness="3,0,3,3" 
+                                  Foreground="#CFFFD0" Header="Деревья">
+                            <ListView>
+                                <TextBlock Text="Береза : 0" FontSize="14" TextDecorations="Underline"/>
+                                <TextBlock Text="Осина : 0" TextDecorations="Underline"/>
+                                <TextBlock Text="Дуб : 0" TextDecorations="Underline"/>
+                            </ListView>
+                        </GroupBox>
+                        <GroupBox Header="Кустарники" FontSize="15" DockPanel.Dock="Top" Margin="0,20,0,0" BorderThickness="3,0,3,3" ><ListView>
+                            <TextBlock Text="Шиповник : 0" TextDecorations="Underline"/>
+                            <TextBlock Text="Смородина : 0" TextDecorations="Underline"/>
+                            <TextBlock Text="Крыжовник : 0" TextDecorations="Underline"/>
+                        </ListView></GroupBox>
+                    </DockPanel>
+                </Grid>
+            </TabItem>
         </TabControl>
     </Grid>
 </Window>

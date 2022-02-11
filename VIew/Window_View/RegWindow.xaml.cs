@@ -9,4 +9,12 @@ public partial class RegWindow : Window
     {
         InitializeComponent();
     }
+
+    private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+    {
+        AuthWindow a = new AuthWindow();
+        a.Show();
+        RegWindow r = this;
+        r.Close();
+    }
 }

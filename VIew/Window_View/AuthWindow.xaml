@@ -7,7 +7,8 @@
         Background="#CFFFD0"
         Title="{Binding Title, UpdateSourceTrigger=PropertyChanged}" 
         SizeToContent="WidthAndHeight"
-        ResizeMode="NoResize">
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen">
 <Window.DataContext>
         <vm:MainViewModel/>
     </Window.DataContext>
@@ -78,7 +79,7 @@
                 <Button Height="30" Width="30"
                         HorizontalContentAlignment="Center" VerticalContentAlignment="Top"
                         BorderBrush="#CFFFD0"
-                        BorderThickness="0">
+                        BorderThickness="0" Click="ButtonBase_OnClick">
                     <Button.Background>
                         <ImageBrush ImageSource="../../Resource/vk.png"
                                     Stretch="Uniform"/>
@@ -91,14 +92,14 @@
                         BorderThickness="0">
                     <Button.Background>
                         <ImageBrush ImageSource="../../Resource/google.png"
-                                    Stretch="Uniform"/>
+                                    Stretch="Uniform" />
                     </Button.Background>
                 </Button>
                 <Border Margin="10"/>
                 <Button Height="30" Width="30"
                         HorizontalContentAlignment="Center" VerticalContentAlignment="Top"
                         BorderBrush="#CFFFD0"
-                        BorderThickness="0">
+                        BorderThickness="0" Click="ButtonBase_OnClick">
                     <Button.Background>
                         <ImageBrush ImageSource="../../Resource/meta.png"
                                     Stretch="Uniform"/>
@@ -108,7 +109,7 @@
                 <Button Height="30" Width="30"
                         HorizontalContentAlignment="Center" VerticalContentAlignment="Top"
                         BorderBrush="#CFFFD0"
-                        BorderThickness="0">
+                        BorderThickness="0" Click="ButtonBase_OnClick">
                     <Button.Background>
                         <ImageBrush ImageSource="../../Resource/pngegg.png"
                                     Stretch="Uniform"/>
@@ -118,7 +119,7 @@
                 <Button Height="30" Width="30"
                         HorizontalContentAlignment="Center" VerticalContentAlignment="Top"
                         BorderBrush="#CFFFD0"
-                        BorderThickness="0">
+                        BorderThickness="0" Click="ButtonBase_OnClick">
                     <Button.Background>
                         <ImageBrush ImageSource="../../Resource/instagram.png"
                                     Stretch="Uniform"/>
