@@ -74,3 +74,11 @@ C:\Users\egmal\RiderProjects\GreenGrad\GreenGrad\obj\Debug\net6.0-windows\GreenG
 C:\Users\egmal\RiderProjects\GreenGrad\GreenGrad\obj\Debug\net6.0-windows\ref\GreenGrad.dll
 C:\Users\egmal\RiderProjects\GreenGrad\GreenGrad\obj\Debug\net6.0-windows\GreenGrad.pdb
 C:\Users\egmal\RiderProjects\GreenGrad\GreenGrad\obj\Debug\net6.0-windows\GreenGrad.genruntimeconfig.cache
+C:\Users\egmal\RiderProjects\GreenGrad\GreenGrad\bin\Debug\net6.0-windows\Microsoft.VisualStudio.LiveShare.dll
+C:\Users\egmal\RiderProjects\GreenGrad\GreenGrad\bin\Debug\net6.0-windows\System.Composition.AttributedModel.dll
+C:\Users\egmal\RiderProjects\GreenGrad\GreenGrad\bin\Debug\net6.0-windows\System.Composition.Convention.dll
+C:\Users\egmal\RiderProjects\GreenGrad\GreenGrad\bin\Debug\net6.0-windows\System.Composition.Hosting.dll
+C:\Users\egmal\RiderProjects\GreenGrad\GreenGrad\bin\Debug\net6.0-windows\System.Composition.Runtime.dll
+C:\Users\egmal\RiderProjects\GreenGrad\GreenGrad\bin\Debug\net6.0-windows\System.Composition.TypedParts.dll
+C:\Users\egmal\RiderProjects\GreenGrad\GreenGrad\obj\Debug\net6.0-windows\VIew\Window_View\TreeListWindow.baml
+C:\Users\egmal\RiderProjects\GreenGrad\GreenGrad\obj\Debug\net6.0-windows\VIew\Window_View\TreeListWindow.g.cs

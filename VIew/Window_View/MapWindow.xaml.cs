@@ -8,4 +8,10 @@ public partial class MapWindow : Window
     {
         InitializeComponent();
     }
+
+    private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+    {
+        TreeListWindow t = new TreeListWindow();
+        t.Show();
+    }
 }

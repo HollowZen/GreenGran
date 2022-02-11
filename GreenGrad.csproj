@@ -74,6 +74,33 @@
       <Resource Include="Resource\GG2.png">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Resource>
+      <None Remove="Resource\pngwing.com.png" />
+      <Resource Include="Resource\pngwing.com.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Resource\pngwing.com (1).png" />
+      <Resource Include="Resource\pngwing.com (1).png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Resource\pngwing.com (2).png" />
+      <Resource Include="Resource\pngwing.com (2).png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Resource\pngwing.com (3).png" />
+      <Resource Include="Resource\pngwing.com (3).png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Resource\pngwing.com (4).png" />
+      <Resource Include="Resource\pngwing.com (4).png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Resource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Resource\pngwing.com (5).png" />
+      <Resource Include="Resource\pngwing.com (5).png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Resource>
     </ItemGroup>
 
 </Project>

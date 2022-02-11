@@ -1,6 +1,3 @@
-2022/02/10-15:03:19.746 f80 Reusing MANIFEST C:\Users\egmal\RiderProjects\GreenGrad\GreenGrad\bin\Debug\net6.0-windows\GreenGrad.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
-2022/02/10-15:03:19.748 f80 Recovering log #3
-2022/02/10-15:03:19.748 f80 Reusing old log C:\Users\egmal\RiderProjects\GreenGrad\GreenGrad\bin\Debug\net6.0-windows\GreenGrad.exe.WebView2\EBWebView\Default\Local Storage\leveldb/000003.log 
-2022/02/10-15:03:35.543 6e0 Level-0 table #5: started
-2022/02/10-15:03:35.548 6e0 Level-0 table #5: 209823 bytes OK
-2022/02/10-15:03:35.554 6e0 Delete type=0 #3
+2022/02/11-12:20:15.345 c58 Reusing MANIFEST C:\Users\egmal\RiderProjects\GreenGrad\GreenGrad\bin\Debug\net6.0-windows\GreenGrad.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2022/02/11-12:20:15.346 c58 Recovering log #4
+2022/02/11-12:20:15.347 c58 Reusing old log C:\Users\egmal\RiderProjects\GreenGrad\GreenGrad\bin\Debug\net6.0-windows\GreenGrad.exe.WebView2\EBWebView\Default\Local Storage\leveldb/000004.log 

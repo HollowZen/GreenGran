@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\egmal\RiderProjects\GreenGrad\GreenGrad\App.xaml
-3-1438421537
+4-1391427848
 3125777333
-71514446727
+81239064097
 2282063253173
-VIew\Window_View\AuthWindow.xaml;VIew\Window_View\MapWindow.xaml;VIew\Window_View\RegWindow.xaml;
+VIew\Window_View\AuthWindow.xaml;VIew\Window_View\MapWindow.xaml;VIew\Window_View\RegWindow.xaml;VIew\Window_View\TreeListWindow.xaml;
 
-True
+False
 
