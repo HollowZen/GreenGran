@@ -22,4 +22,9 @@ public partial class AuthWindow : Window
         MapWindow m = new MapWindow();
         m.Show();
     }
+
+    private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+    {
+        MessageBox.Show("Функция буде реализована в будующем...");
+    }
 }
