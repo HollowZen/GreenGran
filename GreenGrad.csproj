@@ -94,6 +94,10 @@
       <Resource Include="Resource\pngwing.com (4).png">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Resource>
+      <None Remove="Resource\pngwing.com (6).png" />
+      <Resource Include="Resource\pngwing.com (6).png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Resource>
     </ItemGroup>
 
     <ItemGroup>

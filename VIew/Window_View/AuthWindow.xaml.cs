@@ -15,11 +15,15 @@ public partial class AuthWindow : Window
     {
         RegWindow r = new RegWindow();
         r.Show();
+        AuthWindow a = this;
+        a.Close();
     }
 
     private void Login_OnClick(object sender, RoutedEventArgs e)
     {
         MapWindow m = new MapWindow();
         m.Show();
+        AuthWindow a = this;
+        a.Close();
     }
 }
