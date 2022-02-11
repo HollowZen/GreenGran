@@ -24,9 +24,52 @@
             </TabItem>
             <TabItem Header="Территория озеленения">
                 <TabItem.Content>
-                    <DockPanel Grid.Column="1">
-                       <Image Source="../../Resource/GG2.png"></Image>
-                    </DockPanel>
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Image Grid.Row="0"  Grid.Column="0" Grid.ColumnSpan="13" Grid.RowSpan="11" Source="../../Resource/GG2.png"/>
+                        <StackPanel Grid.Row="3" Grid.Column="4" Orientation="Vertical" Margin="30,5,0,0">
+                            <Button Opacity="0.3" Background="Azure" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                        <StackPanel  Grid.Row="3"  Grid.RowSpan="4" Grid.Column="5" Margin="30,13,0,0">
+                            <Button Opacity="0.3" Background="Azure" HorizontalAlignment="Center"/>
+                            <Button Opacity="0.3" Background="Azure" HorizontalAlignment="Center"/>
+                            <Button Opacity="0.3" Background="Azure" HorizontalAlignment="Center"/>
+                            <Button Opacity="0.3" Background="Azure" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                        <StackPanel Grid.Row="4"  Grid.RowSpan="4" Grid.Column="6">
+                            <Button Opacity="0.3" Background="Azure" HorizontalAlignment="Center"/>
+                            <Button Opacity="0.3" Background="Azure" HorizontalAlignment="Center"/>
+                            <Button Opacity="0.3" Background="Azure" HorizontalAlignment="Center"/>
+                            <Button Opacity="0.3" Background="Azure" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                    </Grid>
                 </TabItem.Content>
             </TabItem>
         </TabControl>
