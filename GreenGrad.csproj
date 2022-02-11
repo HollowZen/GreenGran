@@ -1,0 +1,79 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <ApplicationIcon>greenleaf_120733.ico</ApplicationIcon>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Model" />
+      <Folder Include="VIew\UserControl_View" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Resource\623975.jpg" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="EntityFramework" Version="6.4.4" />
+      <PackageReference Include="MaterialDesignThemes" Version="4.3.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.2" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="6.0.2" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="6.0.2" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.2">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.2" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.2" />
+      <PackageReference Include="Microsoft.VisualStudio.LiveShare" Version="1.1.57" />
+      <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1108.44" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Resource\1486147202-social-media-circled-network10_79475.svg" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Resource\vk.png" />
+      <Resource Include="Resource\vk.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Resource\login.png" />
+      <Resource Include="Resource\login.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Resource\sign-up.png" />
+      <Resource Include="Resource\sign-up.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Resource\google.png" />
+      <Resource Include="Resource\google.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Resource\meta.png" />
+      <Resource Include="Resource\meta.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Resource\pngegg.png" />
+      <Resource Include="Resource\pngegg.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Resource\instagram.png" />
+      <Resource Include="Resource\instagram.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Resource\green-energy.png" />
+      <Resource Include="Resource\green-energy.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Resource\GG2.png" />
+      <Resource Include="Resource\GG2.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Resource>
+    </ItemGroup>
+
+</Project>

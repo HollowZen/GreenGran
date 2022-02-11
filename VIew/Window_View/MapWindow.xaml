@@ -1,0 +1,34 @@
+<Window x:Class="GreenGrad.VIew.Window_View.MapWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
+        mc:Ignorable="d"
+        Title="MapWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Google Map">
+                <TabItem.Content>
+                    <DockPanel Grid.Column="1">
+                        <wv2:WebView2 x:Name="webView" Source="https://www.google.ru/maps/@58.4072919,33.9047612,676m/data=!3m1!1e3"/>
+                    </DockPanel>
+                </TabItem.Content>
+            </TabItem>
+            <TabItem Header="Yandex Maps">
+                <TabItem.Content>
+                    <DockPanel Grid.Column="1">
+                        <wv2:WebView2 x:Name="webView1" Source="https://yandex.ru/maps/10906/borovichy/?l=sat=33.905158%2C58.407597z=17"/>
+                    </DockPanel>
+                </TabItem.Content>
+            </TabItem>
+            <TabItem Header="Территория озеленения">
+                <TabItem.Content>
+                    <DockPanel Grid.Column="1">
+                       <Image Source="../../Resource/GG2.png"></Image>
+                    </DockPanel>
+                </TabItem.Content>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
